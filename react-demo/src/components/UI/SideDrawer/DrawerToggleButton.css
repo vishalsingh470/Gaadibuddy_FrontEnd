@@ -1,0 +1,21 @@
+.toggle-button {
+  display: flex; /* to show vertical lines as burger icon*/
+  flex-direction: column; /* so that line comes in vertical beneath each other by default its row*/
+  justify-content: space-around; /*to clumsify column axis from top to bottom --- flex box properties*/
+  height: 20px;
+  width: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0; /*so there is no padding between top shelve and vertical lines*/
+  box-sizing: border-box; /*so it will display like box*/
+}
+.toggle-button:focus {
+  outline: none; /* so there is no outline on focus*/
+}
+
+.toggle-button__line {
+  width: 25px; /*if we give 100% it should take from togglebutton flex box so had to give hard code*/
+  height: 2px; /*height between vertical lines*/
+  background: white;
+}

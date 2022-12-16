@@ -1,0 +1,140 @@
+ 
+.sliderContainer{
+   background: #E0E0E0 0% 0% no-repeat padding-box;
+ box-shadow: 12px 12px 12px #00000029;
+ 
+opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    
+}
+.slick-dots li{
+   
+    margin-top: 20% !important;
+    color: #024126;
+}
+.sliderContainer .slick-next{
+    all: unset;
+    font-size: 0;
+  
+    
+}
+.sliderContainer .slick-next{
+    all: unset;
+    font-size: 0;
+    height: 5rem !important;
+    margin-right: 2%;
+ 
+    
+}
+ 
+.sliderContainer .slick-prev{
+    all: unset;
+    font-size: 0;
+  margin-left: 2%;
+}
+.sliderContainer .slick-prev:before,
+.slick-next:before {
+  color: rgb(42, 40, 40)!important;
+  cursor: pointer !important;
+  
+  
+}
+.sliderContainer img{
+    height: 18rem;
+    width: 20rem;
+   margin: auto;
+}
+ 
+ 
+.oneServiceBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    align-content: center !important;
+  
+}
+.oneServiceBox a{
+  all: unset;
+    text-decoration: none;
+      color: black;
+}
+.oneServiceBox button{
+ border: 1px solid #707070;
+  
+ 
+ font-size: medium;
+ position: relative;
+ margin-top: 5%;
+ margin-bottom: 5%;
+background-color: white;
+z-index: 2;
+}
+.slider-button-container{
+    display: block;
+  flex-direction: column;
+ color: white;
+    width: fit-content !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items:flex-end ;
+    height: 35vh;
+z-index: 1000;
+}
+ .slick-dots li button:before {
+    color: orange;
+  }
+@media(max-width:769px){
+   .sliderContainer{
+   background: #E0E0E0 0% 0% no-repeat padding-box;
+ box-shadow: 12px 12px 12px #00000029;
+border: 1px solid #707070;
+opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.sliderContainer img{
+    height: 35vh;
+    width: 85%;
+   margin: auto;
+    box-shadow: 12px 12px 12px #00000029;
+}
+
+.oneServiceBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    align-content: center !important;
+  
+}
+ 
+.oneServiceBox button{
+ border: 1px solid #707070;
+ height: fit-content; 
+ min-height: 5vh;
+ font-size: 90%;
+ position: relative;
+ margin-top: 5%;
+ margin-bottom: 5%;
+background-color: white;
+} 
+.slick-dots li{
+   
+    margin-top: 0% !important;
+    color: #024126;
+}
+}

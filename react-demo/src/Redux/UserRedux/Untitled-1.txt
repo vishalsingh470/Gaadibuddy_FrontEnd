@@ -1,0 +1,45 @@
+user : {
+    name:'om v sonone',
+    mobile:'9538964686,
+    mercArray : ['11312efvc'.'2qd323r3','1323ceww']
+}
+******************* fetching by id ********
+merch:{
+    id:'11312efvc',
+    name:'T-SHIRT,
+    price:200$
+}
+merch:{
+    id:'2qd323r3',
+    name:'PANT,
+    price:20$
+}
+merch:{
+    id:'1323ceww',
+    name:'SWEATSHIRT,
+    price:100$
+}
+
+*********************** after operation ******
+user : {
+    name:'om v sonone',
+    mobile:'9538964686,
+    mercArray : ['11312efvc'.'2qd323r3','1323ceww'],
+    recievedMerch: [
+        merch:{
+    id:'11312efvc',
+    name:'T-SHIRT,
+    price:200$
+}
+merch:{
+    id:'2qd323r3',
+    name:'PANT,
+    price:20$
+}
+merch:{
+    id:'1323ceww',
+    name:'SWEATSHIRT,
+    price:100$
+}
+    ]
+}

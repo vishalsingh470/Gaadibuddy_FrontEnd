@@ -1,0 +1,521 @@
+.userprofilecomponent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+.userprofilecomponent p, 
+.userprofilecomponent h1,
+.userprofilecomponent h2,
+.userprofilecomponent h3{
+  font-family: "lato" !important;
+}
+.cardetailsinActive{
+  padding-top: 2%;
+}
+.profiledetailscontainer {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  margin-top: 1%;
+  
+}
+.profiledetailscontainer h2{
+  font-size: 180% !important;
+  
+  margin-top: 1%;
+  
+}
+.profiledetailscontainer h4{
+  font-size: 150% !important;
+ margin-top: 1.5%;
+   
+  font-weight: 600;
+  
+
+}
+.profiledetailscontainer a{
+   margin-top: 0.8%;
+  
+
+}
+.profileimg {
+  min-height: 18vh;
+  height: fit-content;
+padding: 0.5rem;
+ 
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  
+}
+.addresscar{
+  display: flex;
+  flex-direction: column;
+ 
+   width: 35%;
+   height: 100%;
+  
+   
+}
+.addresscar h2{
+ margin-left: -60%;
+ min-width: fit-content;
+ 
+ text-overflow: ellipsis;
+}
+  .editicon {
+     position: relative;
+     left: 94%;
+     margin-top: -2%;
+  
+ 
+ 
+  }
+  .addresscar p{
+      margin: 1%;
+   width: 15vw;
+  height: 35px;
+     /* white-space: wrap; */
+     overflow: hidden;
+     text-overflow: none;
+  } 
+ 
+.carbuttonsremove button{
+  background: #B00F00;
+  width: 7vw;
+}
+/* .carbuttonsremove button:hover{
+   background: red;
+} */
+.carbuttonsremove {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ 
+
+.activesub {
+  height: fit-content;
+  padding-bottom: 3%;
+}
+.mobileUserProfile {
+  margin-top: -2rem;
+  margin-right: -1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ margin-bottom: 1rem;
+  justify-content: center;
+}
+.mobileUserProfile img{
+  margin-top:150%;
+  margin-left: -1rem;
+}
+.mobileUserProfile h4{
+  letter-spacing: 1px;
+  font-size: large;
+}
+.mobileUserProfile h4{
+ padding-right: 2rem;
+ margin-left: 2%;
+}
+.addCarContainerUser{
+  margin-top:-1rem;
+  text-decoration: none;
+  margin-bottom: 2rem;
+ 
+}
+.addCarContainerUser button{
+  
+  width: 9vw;
+
+}
+.addCarContainerUser {
+ margin-top: -2.8%;
+}
+.addCarContainerUser a{
+   
+  text-decoration: none;
+  color: white;
+}
+.cars {
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-evenly;
+  flex-wrap: wrap;
+
+ 
+  width: 100%;
+ 
+  height: auto;
+}
+.cars:nth-child(even) {
+
+  border : 2px solid #024126;
+text-align: left;
+  width: 65%;
+ 
+  padding: 2%;
+    margin: 1%;
+      
+}
+.cars:nth-child(odd) {
+ 
+  border : 2px solid #024126;
+text-align: left;
+  margin: 1%;
+  width: 65%;
+ 
+  padding: 2%;
+   
+}
+.personaldeatils{
+display: flex;
+flex-direction: column;
+
+margin-bottom: 1%;
+ 
+align-items: center;
+text-align: left;
+height: auto;
+
+}
+.carImage{
+ width: 25%;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.carImage img{
+  height: 25vh;
+  width: 25vh;
+ 
+}
+ .editAndRemove{
+    
+    display:flex;
+    flex-direction:row;
+     justify-content:space-around;
+  }
+  .editAndRemove .editicon{
+    position: relative;
+    left:-1.5vw;
+     
+  }
+   .editicon img{
+    margin-top: 20%;
+   }
+@media (max-width: 768px) {
+  .promptbuttonNo {
+  color: #FF3737;
+  background-color:inherit;
+  border: 2px solid #FF3737;
+   width: 35vw;
+ 
+}
+.promptbuttonNo h3{
+  text-align: center;
+ 
+}
+.promptbuttonYes {
+  color:#008000;
+  background-color:inherit;
+  border: 2px solid #008000;
+  width: 35vw;
+ 
+}
+  .cars{
+    display: flex;
+    flex-direction: column;
+ 
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+  
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .cars:nth-child(odd) {
+    width: 90%;
+      border:none;
+    background: rgb(226, 220, 220);
+  }
+  .cars:nth-child(even) {
+      width: 90%;
+        border:none;
+    background: rgb(185, 183, 183);
+  }
+  .carname {
+   
+    padding-bottom: 2%;
+    text-align: left;
+  }
+  .editicon {
+    all: unset;
+    position: relative;
+    left: 44%;
+    
+  }
+  .addresscar{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .addresscar img{
+  
+    margin-left: -80% !important;
+  }
+  .carImage img{
+  height: 15vh;
+  width: 15vh;
+ 
+}
+  .react-confirm-alert {
+    height: 25%;
+    width: 90%;
+    border: 3px solid black;
+    
+    
+    
+  }
+  .react-confirm-alert h3 {
+    margin-bottom: 10%;
+    margin-top: 4%;
+   
+  }
+  .profiledetailscontainer{
+    width: 95%;
+    border:none;
+  
+  }
+  .profiledetailscontainer {
+  text-align: center;
+  margin: auto;
+  width: 98%;
+  margin-top: 1%;
+  
+}
+.profileimg {
+  min-height: 12vh;
+  height: fit-content;
+padding: 0.5rem;
+ 
+  margin-top: 0rem;
+  margin-bottom: -1rem;
+  
+}
+ 
+.addresscar{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+ line-height: 1rem;
+
+   min-width:95% !important;
+  }
+  .addresscar h2{
+ 
+ 
+ text-align: center;
+ min-width:50vw;
+
+ text-overflow: ellipsis;
+ 
+  
+}
+ .addresscar h2:first-child{
+ 
+   margin: unset;
+   margin-left: -0%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+.addresscar p{
+ 
+  line-height: 38px;
+   width: 80vw;
+   height: 33px;
+     white-space: wrap;
+     overflow: hidden;
+     text-overflow: none;
+     margin: 0;
+}
+  .editicon {
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 10%;
+ 
+ align-items: flex-end;
+  }
+ 
+.carbuttonsremove button{
+  background: #B00F00;
+  min-width: fit-content;
+  height: 65%;
+  margin-bottom: 20%;
+}
+.addCarContainerUser button{
+  
+ background: #B00F00;
+  min-width: fit-content;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 65% !important;
+  padding-left: 6%;
+  padding-right: 6%;
+  
+}
+.addCarContainerUser{
+margin-top: -7%;
+}
+.editAndRemove{
+    
+    display:flex;
+    flex-direction:row;
+     justify-content:space-around;
+  }
+ 
+  .mobileUserProfile img{
+  margin-top: 1.5rem;
+  margin-left: -2rem;
+}
+.profiledetailscontainer h2{
+  font-size: 160% !important;
+  margin-top: 2%;
+  
+}
+.profiledetailscontainer h4{
+  font-size: 150% !important;
+ 
+   
+  font-weight: 600;
+  margin-top: 5%;
+  margin-right: 2%;
+  
+
+}
+}
+.line {
+  border: 1px solid red;
+}
+
+
+.h3 {
+  text-align: left;
+  margin-left: 3%;
+ 
+margin-bottom: 1%;
+   
+}
+
+.sunscriptionlist {
+ 
+  height: auto;
+  background-color: rgb(245, 243, 241);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+ margin-top: 3%;
+ 
+ 
+}
+.sunscriptionliststatus:nth-child(odd) {
+  box-shadow: 0 0px 9px 0 rgba(0, 0, 0, 0.0), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+ 
+ 
+}
+.subbutton {
+  margin: 1rem;
+}
+.onepastorderbox {
+  background-color: #e9e3e3;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 1%;
+  height: 40%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #024126;
+  border-radius: 5px;
+}
+.pastordercomponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  width: 100vw;
+}
+.meter {
+  height: 60px; /* Can be anything */
+  position: relative;
+  background: rgb(70, 58, 58);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  width: 100%;
+}
+span {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43, 194, 83);
+
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43, 194, 83) 37%,
+    rgb(84, 240, 84) 69%
+  );
+}
+.subbar {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.signoutbutton {
+  background-color: white;
+  color: red;
+  padding-bottom: 1rem;
+  margin: auto;
+  /* border: 2px solid black;
+  border-radius: 5px; */
+}
+.latlong {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.sunscriptionliststatus {
+  height: auto;
+}
+
+.addorderbutton {
+  background-color: white;
+  color: rgb(47, 110, 206);
+  border: 2px solid rgb(53, 44, 129);
+  border-radius: 5px;
+  margin: auto;
+}
+.pastbuttoncontainer {
+  width: 100%;
+
+  margin-right: 50%;
+  margin-top: 7%;
+  text-align: center;
+}

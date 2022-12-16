@@ -1,0 +1,220 @@
+.side-drawer {
+  height: 100%;
+ 
+  /* background-color: red; */
+  background: #eeeaea 0% 0% no-repeat padding-box;
+  box-shadow: 1px 0px 7px rgba(1, 1, 1, 02);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 3001; /* so that it is above backdrop */
+  transform: translateX(-100%); /* so that slider move back inside */
+  transition: transform 0.3s ease-out;
+  font-family: "poppins" !important;
+  overflow-y:  scroll;
+}
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.side-drawer.open {
+  transform: translateX(0); /* so that slider move outside */
+}
+.side-drawer ul {
+  
+  
+  height: 100%; /* so that it takes full height */
+  list-style: none;
+  display: flex; /* so that list contants doesnt have any bullets */
+  flex-direction: column; /* so that list items are in vertical aligned below each other */
+  justify-content: top; /* to align list items to center */
+}
+.userprofilecomp {
+  display: flex !important;
+  flex-direction: row !important;
+  max-height: 25%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+  margin-left: 2%;
+}
+.userimagecomp {
+  position: relative;
+
+  width: 30%;
+  height: 100%;
+}
+
+.usernamecomp p {
+  position: relative;
+  left: 0rem;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.usernamecomp {
+  width: 100%;
+  margin-left: 10%;
+}
+
+.userimage {
+  height: 120%;
+  width: 120%;
+
+  border-radius: 4px;
+}
+.side-drawer ul{
+ 
+  width: 95%;
+ 
+  padding: unset;
+  margin: auto;
+}
+.side-drawer li {
+ 
+  text-align: left;
+  font-size: medium;
+ 
+  min-height: 3rem;
+}
+.side-drawer a {
+  
+ 
+ 
+  width: 100%;
+
+  font-weight: 600;
+  color: rgb(54, 58, 58);
+  font-size: medium;
+  text-decoration: none;
+}
+.side-drawer a:hover,
+.side-drawer a:active {
+  color: #B00F00; /* to highlight with this color when cursor goes on that */
+}
+
+@media (min-width: 769px) {
+  .side-drawer {
+    /*when device is of laptop dont display side drawer*/
+    display: none;
+  }
+}
+
+.logoutSidebar button:hover {
+}
+.logoutSidebar p {
+  text-align: center;
+  font-size: larger;
+  color: #cfd9df;
+  margin-top: -3%;
+}
+.spacer1 {
+  flex: 1;
+  background-color: #B00F00;
+}
+.tc-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative !important;
+   
+  width: 100%;
+  padding-top: 10%;
+  background-color: #EEEAEA;
+ bottom:0;
+  left: 0;
+  height: 70px;
+}
+.tc-container button p{
+  color: #B00F00 !important;
+  font-weight: 600;
+  padding-bottom: 10%;
+}
+#termsLi {
+  position: absolute;
+  bottom: 150px;
+}
+#privacyLi {
+  position: absolute;
+  bottom: 110px;
+}
+@media (max-width: 568px) {
+  .side-drawer li {
+    margin: 0.5rem;
+    border-radius: 2px;
+    text-align: left;
+    font-size: small;
+    font-weight: 100;
+    height: 1.5rem;
+  }
+  #termsLi {
+    position: relative;
+    bottom: 0vh;
+
+    width: 90%;
+  }
+  #privacyLi {
+    position: relative;
+    bottom: 0vh;
+  }
+   
+}
+ 
+  
+   
+.profileSeperator hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 95%;
+  background-color: #B00F00;
+  height: 3px;
+}
+.linkSeperator{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.linkSeperator hr{
+   border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color:#707070;
+  height:1.5px !important;
+  margin: unset;
+  margin-top: -12% !important;
+  margin-bottom: -0% !important;
+  
+  
+}
+.hiddenSubmenu{
+  visibility: hidden;
+  height: 0rem;
+}
+.subMenu{
+ 
+  min-height: fit-content;
+  margin-bottom: 10%;
+  margin-top: -10%;
+}
+.subMenu li{
+font-size: small;
+  max-height: 2rem !important;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.subMenu li a{
+ margin-left: 10%;
+}

@@ -1,0 +1,361 @@
+.cartItemBody{
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'poppins', serif;
+  
+}
+.cartItemBody input, select{
+   -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.emptyCart{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+height: 100%;
+}
+.emptyCart img{
+   
+  min-height: 15rem;
+  min-width: 15rem;
+  height: 20vw;
+  width: 28vw;
+}
+.fullCart{
+ 
+min-height: 100vh;
+height: 100%;
+margin: 1%; /**can be removed based on later results*/
+}
+.headingCart{
+  text-align: center;
+}
+.fullCartBody{
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.leftCartContainer{
+ 
+  min-width: 50%;
+  width: 60%;
+ 
+  
+}
+.leftCartComponent{
+ display: flex;
+  margin-bottom: 2%;
+ 
+}
+.leftCartContainer p{
+  margin: 0;
+}
+.leftCartComponent .cart1{
+ 
+  width: 35%;
+}
+
+.cart1 img{
+  height: 50%;
+  margin-top: 20%;
+  width: 90%;
+  padding-bottom: 10%;
+}
+.priceContainerCart h3{
+ 
+  text-align: left;
+  position: relative;
+  left: 0vw;
+ 
+}
+.leftCartComponent .cart2{
+ 
+  width: 60%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  justify-content: center;
+ 
+}
+#cartLabels{
+ 
+min-width: 5rem;
+ 
+}
+.cartServiceName p{
+ margin-top: -2%;
+ padding-bottom: 10%;
+font-weight:600;
+text-align: center;
+}
+.cartPackageName p{
+ margin-bottom: 2%;
+}
+.cartCarName{
+  display: flex;
+  margin-right: 1%;
+}
+.cartCarName p{
+margin-bottom: 2%;
+font-weight: 600;
+}
+.cartCarNo p{
+  margin-bottom: 2%;
+}
+.dateContainerCart{
+ 
+ margin-bottom: 2%;
+ height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeContainerCart{
+ 
+  margin-bottom: 2%;
+  height: 2rem;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.durationContainerCart{
+  
+  margin-bottom: 2%;
+  height: 2rem;
+   display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+.cartItemBody select{
+min-width: 200px;
+max-width: 200px;
+margin: 25px !important;
+min-height: 20px;
+max-height : 30px !important;
+ 
+}
+.cartItemBody input{
+  margin:unset;
+   
+   min-width: 200px;
+max-width: 200px;
+margin: 25px !important;
+min-height: 20px;
+max-height : 30px !important;
+ 
+ 
+}
+.lineContainer hr{
+  
+  width: 250%;
+  margin-top: 5%;
+ border: 2px solid #B00F00;
+}
+
+
+
+
+
+
+
+
+.rightCart{
+ 
+  width: 35%;
+ display: flex;
+ flex-direction: column;
+ justify-content: baseline;
+ align-items: center;
+  
+}
+.rightCart button{
+  
+  margin-top: 10%;
+  width: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.removeButtonContainerCart button{
+  
+  position: relative;
+  margin-left: 28%;
+width: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.react-datepicker-popper{
+  margin-top: -1% !important;
+}
+.smallFontDropDown select{
+ 
+  font-size: 75%;
+}
+@media(max-width:768px){
+ .leftCartContainer{
+ 
+  min-width: 100%;
+
+  
+}
+.leftCartComponent{
+ display: flex;
+ 
+  margin-bottom: 12%;
+  flex-direction: column;
+ 
+}
+.leftCartContainer p{
+  margin: 0;
+}
+.leftCartComponent .cart1{
+ padding: 0;
+ margin: 0;
+  
+ 
+  width: 100%;
+}
+.cart1 img{
+  height: 30%;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  margin-left: 5%;
+
+}
+.leftCartComponent .cart2{
+ 
+ position: relative;
+  width: 96%;
+margin: 0;
+ 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: -10%;
+  margin-left: 4%;
+ 
+}
+.cartItemBody select{
+    
+}
+.cartItemBody input{
+   width: 0rem;
+}
+#cartLabels{
+
+min-width: 5rem;
+}
+.cartServiceName p{
+ margin-bottom: 2%;
+ text-align: left;
+ position: relative;
+ margin-left: 4%;
+
+}
+.cartPackageName p{
+  margin-top: -4%;
+ 
+ margin-bottom: 2%;
+}
+.cartCarName p{
+margin-bottom: 2%;
+}
+.cartCarNo p{
+  margin-bottom: 2%;
+}
+.dateContainerCart{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 5%;
+}
+.dateContainerCart input{
+min-width: 150px;
+max-width: 150px;
+margin: 25px !important;
+min-height: 20px;
+max-height : 30px !important;
+    
+}
+.timeContainerCart{
+  margin-bottom: 5%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+
+}
+.cartItemBody select{
+min-width: 150px;
+max-width: 150px;
+margin: 25px !important;
+min-height: 20px;
+max-height : 30px !important;
+ 
+}
+ 
+.timeContainerCart input{
+min-width: 150px;
+max-width: 150px;
+margin: 25px !important;
+min-height: 20px;
+max-height : 30px !important;
+}
+
+.durationContainerCart{
+ margin-bottom: 5%;
+   display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+ 
+ 
+.lineContainer hr{
+  width: 99%;
+  margin-top: 13%;
+  margin-left: 0%;
+ border: 2px solid orangered;
+}
+
+
+
+
+
+
+
+.removeButtonContainerCart{
+  text-align: center;
+  margin: unset;
+  width: 100%;
+ 
+}
+.removeButtonContainerCart button{
+  width: 40%;
+  
+  position: relative;
+  margin-left: -3%;
+
+}
+.rightCart{
+ 
+  width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: baseline;
+ align-items: center;
+  
+}
+}

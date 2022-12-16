@@ -1,0 +1,147 @@
+.footer{
+  font-size: clamp(0.8rem,1vw,2rem);
+ /* font-family: 'Josefin Sans', sans-serif; */
+ background: linear-gradient(to right, #042440, #007174);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    max-height: 10%;
+    width: 100%;
+   display: flex;
+   color:white;
+   flex-wrap: wrap;
+    height: fit-content;
+   flex-direction: column;
+   padding: 1rem;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+   
+ 
+  .footer__navigation {
+    display: flex;
+    flex-wrap: wrap; /*to align Logo and navigation-items list next to each other*/
+    height: 100%; /*to utilize full height set in .toolbar*/
+    align-items: center; /*to align Logo to center*/
+    padding: 0 1rem; /*to set gap between Logo and list*/
+  }
+  .footersocials img{
+    width: 2rem;
+ display: flex;
+ justify-content: center;
+align-items: baseline;
+    
+      
+  }
+  
+  .tccontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .nonSocials{
+    display: flex;
+   justify-content: space-evenly;
+  }
+  @media(max-width:769px){
+    .footersocials{
+      width: 15%;
+      border:2px solid #fa923f;
+      padding: 2%;
+      border-radius: 3px;
+     margin-bottom:3% ;
+    }
+  }
+   
+  
+  
+  .footer__navigation-items ul {
+    display: flex; /*to set remove bullets for menu item and add them in vertical list*/
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+   
+  }
+  
+  .footer__navigation-items li {
+    padding: 0 0.5rem; /*to set gap between 2 itmes in menu */
+    font-weight: 600;
+    font-size: larger;
+  }
+  
+  
+  .footer__navigation-items a {
+    color:  white;
+    text-decoration: none;
+    font-size: x-large; /*to set properties of each menu items list*/
+  }
+  
+  .footer__navigation-items a:hover,
+  .footer__navigation-items a:active {
+    color: #fa923f; /*so when there is cursor on that color changes*/
+    
+  }
+  
+ .nonSocials a{
+   font-size: medium;
+ }
+  
+  #popuplist p:hover{
+    color: #042440;
+  }
+  
+   
+  @media (min-width: 769px) {
+  }
+  .footerbutton{
+    background-color: rgb(192, 192, 191);
+    color: black;
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+  .certification{
+     padding-top: 1rem;
+     margin-left: 1%;
+    
+   }
+@media (max-width: 768px) {
+  .footer{
+ position: relative;
+ width: 100vw;
+ padding: 1%;
+ background: linear-gradient(to right, #042440, #007174);
+ 
+  }
+  .footer__navigation-items .grow{
+ align-items: center;
+
+  }
+    .footer__navigation-items ul,li {
+      /*when device is of mobile dont display menu items on toolbar*/
+      display:flex;
+      flex-direction: row;
+  
+    
+    }
+    .footerbutton{
+        display: none;
+        
+    }
+    .footersocials{
+        border: none;
+       
+    }
+    .nonSocials {
+      visibility: hidden;
+    }
+
+   
+   .certification{
+     margin-top: 1%;
+     margin-bottom: 1%;
+     margin-left: 4%;
+    
+   }
+  
+  }

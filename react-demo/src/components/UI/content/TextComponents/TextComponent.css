@@ -1,0 +1,13 @@
+.textcontainer,
+.Servicetextcontainer {
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+  .textcontainer,
+  .Servicetextcontainer {
+    height: auto;
+    width: 100%;
+  }
+}

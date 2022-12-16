@@ -1,0 +1,121 @@
+.addcarcontainer1 {
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+   
+   text-align: center;
+    
+    margin: auto;
+  width: 50%;
+}
+.addcarcontainer1 input{
+  width: 80%;
+  border-radius: 0;
+}
+.carAddress input{
+  width: 80%;
+  border-radius: 0;
+}
+.addcarcontainer1  label{
+ 
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content:left;
+  margin-left: 9.4%;
+ margin-bottom: -2%;
+}
+.carname{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    align-items: center;
+   
+}
+.carAddress {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+ 
+}
+ 
+.selectrow1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.selectrow1 label{
+ 
+ margin-bottom: 2%;
+ display: flex;
+ margin-left: -34vw;
+
+
+}
+.selectrow1 p{
+
+}
+.selectrow1 select{
+   height: 3rem;
+  width: 81%;
+  padding: 0.2rem;
+  border: 2px solid black;
+  margin-top: -2%;
+  background-color:white;
+ }
+ .noEdit{
+    opacity: 10%;
+   cursor: none;
+}
+.addcarcontainer1 p {
+  color:red;
+   font-size:0.7rem;
+  text-align:left;
+  margin-left:4.5rem;
+  margin-top:-0.8rem;
+}
+.addcarcontainer1 button{
+  margin: 1%;
+max-width: 35%;
+}
+@media(max-width:788px){
+  .addcarcontainer1 {
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+   
+   text-align: center;
+    
+    margin: auto;
+  width: 100%;
+}
+
+
+.addcarcontainer1 label{
+ 
+  position: relative;
+  bottom:-1vh;
+   
+}
+.selectrow1 label{
+  
+  position: relative;
+  left:-10vw;
+  bottom: 0vh;
+}
+.addcarcontainer1 p {
+  text-align: left;
+  color:red;
+  margin-left: 9%;
+  
+}
+.addcarcontainer1 button{
+  margin: 3%;
+max-width: 35%;
+}
+}

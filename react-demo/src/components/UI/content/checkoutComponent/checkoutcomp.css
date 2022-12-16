@@ -1,0 +1,153 @@
+.checkout-container{
+   min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.checkout-heading{
+    text-align: center;
+       color: #000000;
+}
+.orderBoxCheckout{
+   display: flex;
+ flex-direction: column;
+    margin-left: 3%;
+  
+    height: 100%;
+    width: 80%;
+}
+.CheckoutTotal{
+  margin-left: 3%;
+  display: flex;
+}
+ 
+.checkoutButonContainer{
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+ 
+}
+.checkoutButonContainer button{
+ background-color:yellow;
+ color:rgb(255, 254, 254);
+ margin-bottom: 3%;
+ position: relative;
+ left: 8%;
+}
+ 
+#checkoutTitle{
+
+  min-width: 16%;
+}
+.orderBoxCheckout hr{
+color: orangered;
+border: 2px solid orangered;
+width: 100%;
+}
+#colonCheckout{
+  
+ margin: 0%;
+  min-width: 5%;
+  text-align: center;
+}
+#checkoutData {
+  margin: 0%;
+ 
+}
+@media (max-width: 768px) {
+ #checkoutRow #addressCheckout{
+    width: 40vw;
+ font-size:5vw;
+ 
+  
+ 
+ 
+  }
+
+  .checkout-container {
+
+    height: 100%;
+  }
+
+.checkout-container hr{
+width: 135%;
+position:relative;
+margin-left: -18%;
+  margin-top: 13%;
+
+ border: 2px solid orangered;
+}
+    .checkout-heading{
+    text-align: center;
+}
+.orderBoxCheckout{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-left: 0%;
+    width: 100vw;
+   
+}
+#checkoutRow{
+ 
+  margin:3.5%;
+  justify-content: center;
+}
+
+ 
+.CheckoutTotal{
+  
+  display: flex;
+}
+ 
+.checkoutButonContainer{
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+}
+.checkoutButonContainer button{
+   left: 0;
+ 
+ background-color: #024126;
+ color: rgb(255, 254, 254);
+ margin: auto;
+}
+#checkoutTitle{
+
+  width: 30vw;
+ 
+  font-size:5vw;
+}
+#checkoutData{
+ 
+  
+ 
+width: 40vw;
+ font-size:5vw;
+   min-width: 50%;
+    text-align: left;
+}
+#colonCheckout{
+ 
+  min-width: 3rem;
+
+
+}
+.checkout-container p{
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+}
+
+}

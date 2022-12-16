@@ -1,0 +1,276 @@
+.LoginAndSignupDesktopConatiner{
+    width: 22vw;
+    height: 100vh;
+ z-index: 4;
+    position: fixed;
+    left: 78vw;
+  background-color: #eaedf1;
+   
+}
+.LoginContainerDeskTop{
+ 
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.top-login-desktop{
+ 
+width: 90%;
+height: 10%;
+margin: 5%;
+margin-top: 10%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.top-login-desktop p{
+  font-size: clamp(1rem, 2.5vw, 3vw);
+font-weight: bold;
+}
+
+.middle-login-desktop{
+ 
+    width: 90%;
+    height: 30%;
+    margin: 5%;
+}
+.middle-1{
+    width: 100%;
+    height: 30%;
+  
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.middle-1-top, .middle-2-top{
+ 
+    height: 78%;
+    margin-bottom: 5%;
+    display:flex ;
+    justify-content: flex-start;
+    align-items: center;
+}
+.middle-1-bottom, .middle-2-bottom{
+ 
+    height: 20%;
+    min-height: 20%;
+    margin-top: 2%;
+}
+.middle-1-top input{
+  
+    max-height: 65%;
+    width: 90%;
+}
+.middle-2-top input{
+   
+    max-height: 50%;
+    width: 90%;
+}
+.middle-1-bottom{
+    margin: auto;
+    margin-top: -5%;
+     width: 90%;
+}
+.middle-2-bottom{
+     margin: auto;
+    margin-top: -7%;
+     width: 90%;
+}
+.middle-2-bottom p, .middle-1-bottom p{
+font-size: small;
+color: red;
+}
+.middle-2{
+width: 100%;
+height: 40%;
+ 
+margin-top: 1%;
+margin-bottom: -0%;
+ 
+}
+.middle-3{
+width: 100%;
+height: 15%;
+ 
+margin-top: -12%;
+margin-bottom: 1%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.middle-3-top{
+    margin: auto;
+ text-align: center;
+    height: 50%;
+    width: 90%;
+     
+}
+.middle-3-top p{
+    font-size: small;
+color: red;
+}
+.bottom-login-desktop{
+    margin: 5%;
+ 
+ 
+   width: 90%;
+   height: 20%; 
+   margin-top: -15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.bottom-1-login{
+ 
+height: 40%;
+width: 100%;
+margin: 2%;
+display: flex;
+justify-content:center ;
+align-items: center;
+ /* background-color: red; */
+ 
+}
+.forgotFiled{
+    height: 40%;
+width: 100%;
+margin: 2%;
+display: flex;
+justify-content:center ;
+align-items: center;
+ /* background-color: red; */
+margin-top: 80%;
+}
+.bottom-2-login{
+ 
+height: 20%;
+width: 100%;
+margin: 2%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ 
+margin-bottom: -2%;
+ 
+}
+.bottom-3-login{
+ 
+height: 20%;
+width: 100%;
+margin: 2%;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
+.bottom-3-login p{
+    font-size: small;
+    cursor: pointer;
+}
+.SignUpContaimerDeskTop{
+background-color: green;
+height: 100%;
+width: 100%;
+}
+.middle-signup-desktop{
+    width: 90%;
+    height: 65%;
+    margin: 5%;
+    margin-top: -5%;
+ 
+}
+.middle-forgot-desktop{
+       width: 90%;
+    height: 35%;
+    margin: 5%;
+    margin-top: -5%;
+}
+.middle-1-signup{
+    width: 100%;
+    height: 15%;
+  
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.middle-1-forgot{
+    width: 100%;
+    height: 25%;
+ 
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.bottom-login-desktop-signup{
+ 
+   width: 90%;
+   height: 10%; 
+   margin-top: -50%;
+display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;  
+ 
+}
+ .middle-3-signup{
+  
+     margin-top: -2%;
+     height: 6%
+     
+ }
+ .bottom-login-desktop-signup{
+    
+     margin-top: -50%;
+ }
+.bottom-login-desktop-forgot{
+ /* background-color: red; */
+margin-top: -50%;
+height: 10%;
+}
+.backImage img {
+height: 20px;
+width: 20px;
+position: relative;
+margin-top: 1vh;
+margin-left: -10vw;
+margin-bottom:-2vh ;
+cursor: pointer;
+
+}
+.top-signup-desktop{
+ 
+ margin-top: 5%;
+}
+.top-forgot-desktop{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.top-forgot-desktop{
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15%;
+}
+.top-forgot-desktop h1{
+    font-size: x-large;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+.top-forgot-desktop small{
+    text-align: left;
+    max-width: 90%;
+    margin-left: 10%;
+}

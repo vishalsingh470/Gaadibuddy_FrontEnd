@@ -1,0 +1,23 @@
+ 
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+.img_mobile {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 769px) {
+  .img {
+    height: 100%;
+    width: 100%;
+
+    min-height: 5rem;
+  }
+  .img_mobile {
+    width: 100%;
+    height: 100%;
+  }
+}

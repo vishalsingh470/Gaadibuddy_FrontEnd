@@ -1,0 +1,140 @@
+ :root {
+  --imageWidth: 35vw;
+  --imageWidthOurMission: 35vw;
+  --imageHeight: auto;
+  --minHeight: 20rem;
+  --minWidth: 20rem;
+  --minHeightMobile:15rem;
+  --maxheightMobile:25rem;
+  --minWidthMobile:98vw;
+  --imageWidthMobile :90vw;
+  --imageHeightMobile :10vh;
+}
+ 
+ .aboutcontainer{
+ 
+   margin: 2%;
+ }
+ .aboutHeader{
+   text-align: center;
+ }
+ .ourstoryHeader{
+   text-align: center;
+   font-size: 150%;
+ }
+ .ourValuesHeader{
+   text-align: center;
+   font-size: 150%;
+ }
+  .ourMissionHeader{
+   
+   text-align: center;
+   font-size: 150%;
+ }
+ .ourMissionRow{
+ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 2%;
+ }
+ 
+ .ourMissionLeft{
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 45%;
+  
+ }
+ .ourMissionLeft p{
+   margin-top: -12%;
+  
+  line-height: 200%;
+ }
+ .ourmissionRight img{
+height: var(--imageHeight);
+  width: var(--imageWidth);
+  min-width: var(--minWidth);
+  min-height: var(--minHeight);
+ }
+
+ .ourstoryRow{
+ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 2%;
+ }
+ .ourStoryLeft{
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 45%;
+ }
+ .ourStoryLeft p{
+    line-height: 200%;
+ }
+ .ourstoryRight img{
+   height: var(--imageHeight);
+  width: var(--imageWidth);
+  min-width: var(--minWidth);
+  min-height: var(--minHeight);
+ }
+ 
+ .ourValuesContainer{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ @media(max-width:768px){
+  
+ .ourMissionLeft{
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 98%;
+ }
+ .ourmissionRight img{
+height: var(--imageHeightMobile);
+  width: var(--imageHeightMobile);
+  min-width: var(--minWidthMobile);
+  min-height: var(--minHeightMobile);
+ }
+ .ourstoryHeader{
+   text-align: center;
+ }
+ .ourstoryRow{
+ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 2%;
+ }
+ .ourStoryLeft{
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 98%;
+ }
+ .ourstoryRight img{
+  height: var(--imageHeightMobile);
+  width: var(--imageHeightMobile);
+  min-width: var(--minWidthMobile);
+  min-height: var(--minHeightMobile);
+ }
+ .ourValuesHeader{
+   text-align: center;
+ }
+ .ourValuesContainer{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ }

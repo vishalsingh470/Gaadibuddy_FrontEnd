@@ -1,0 +1,59 @@
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  background: black;
+ 
+}
+
+.slide {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#goLeft {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-size: large;
+}
+
+#goRight {
+ 
+  right: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: large;
+}
+
+#goLeft :hover {
+  background: rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  color: black;
+}
+#goRight :hover {
+  background: rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  color: whitesmoke;
+}

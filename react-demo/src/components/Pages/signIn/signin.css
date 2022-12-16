@@ -1,0 +1,382 @@
+.signinContainer {
+  height: 100%;
+  width: 22vw;
+  min-width: 10rem;
+  max-width: 30rem;
+  z-index: 4;
+  position: fixed;
+  left: 78vw;
+  top: 0vh;
+  background-color: #eaedf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.signinContainer a{
+  text-decoration: none;
+}
+.eyeContaineDesktop{
+  position: relative;
+  left: 46%;
+  margin-top: 1%;
+
+}
+.signinForm {
+ 
+ 
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  margin-top: 10%;
+  width: 90%;
+  justify-content: center;
+  align-items: baseline;
+}
+ 
+.signupbutton {
+  background-color: white;
+  color: orange;
+  margin: 1rem;
+}
+.signupbutton:hover {
+  font-size: x-large;
+}
+.signUpForm{
+  margin-top: 5%;
+}
+.Login-login {
+  font-size: clamp(1rem, 2.5vw, 3vw);
+  text-align: center;
+  margin-top:55%;
+  margin-bottom: 30%;
+  font-weight: bold;
+  margin-left: -2%;
+  margin-bottom: 20%;
+}
+
+.paswwordContainerLogin {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.phoneContainerLogin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-height: 5rem;
+}
+.phoneContainerLogin p {
+  color: red;
+  font-size: 0.7vw;
+  text-align: left;
+  font-size: 0.7vw;
+
+  margin-left: -24% !important;
+  margin-top: -10%;
+  width: 100%;
+}
+.paswwordContainerLogin, .phoneContainerLogin{
+  max-height: 6rem;
+}
+.paswwordContainerLogin p {
+  color: red;
+  font-size: 0.7vw;
+  text-align: left;
+  margin-left: -24%;
+  margin-top: -10%;
+  width: 100%;
+}
+.inputContainerSignup{
+ 
+  margin-top: 2%;
+  margin-bottom: 2%;
+  max-height: 4rem;
+  
+}
+.inputContainerSignup p {
+  color: red;
+  font-size: 0.7vw;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: -8%;
+  width: 100%;
+}
+ 
+.ForgotPage {
+  height: 100vh;
+}
+.forgotFields {
+   
+  display: flex;
+  flex-direction: column;
+}
+.forgotFields label {
+  position: relative;
+  bottom: -2vh;
+  margin-left: 1.1vw;
+  text-align: left;
+}
+.closeNback {
+  height: 4vh;
+  width: 100%;
+}
+.closeNback label {
+  width: 0%;
+  visibility: hidden;
+}
+.closeNback img {
+  height: 3vh;
+  padding-left: 2%;
+  padding-top: 1%;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.signUpContainer{
+height: 100%;
+  width: 22vw;
+  min-width: 10rem;
+  max-width: 30rem;
+  z-index: 4;
+  position: fixed;
+  left: 78vw;
+  top: 0vh;
+  background-color: #eaedf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.signUpContainer p,.signUpContainer input{
+  margin-left: -10%;
+}
+.signUpContainer p{
+margin-top: -10%;
+}
+ 
+.forgotContainer{
+  height: 100%;
+  width: 22vw;
+  min-width: 10rem;
+  max-width: 30rem;
+  z-index: 4;
+  position: fixed;
+  left: 78vw;
+  top: 0vh;
+  background-color: #eaedf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.closeNbackForgot {
+  margin-top: 10%;
+}
+
+.signinContainer button{
+  height: 2.5rem;
+  width: 8rem;
+}
+.signUpContainer button{
+   height: 2.5rem;
+  width: 8rem;
+}
+@media (min-width: 769px) {
+#signup{
+  margin-top: 60%;
+}
+#signin{
+  margin-top: 60%;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 769px) {
+  .signinContainer{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .signUpContainer{
+     visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .forgotContainer{
+     visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .signinFormMobile {
+    margin: 2%;
+    height:120vh;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .Login-login{
+    font-size: clamp(2rem,2.5rem,3rem);
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  .signinFormMobile a{
+    text-decoration: none;
+  }
+  .signinFormMobile input{
+    width: 80%;
+     
+  }
+  .phoneContainerLogin p{
+font-size: clamp(0.5rem,3vw,4vw);
+margin: 0;
+margin-left: 20%;
+margin-top: -5%;
+  }
+  .paswwordContainerLogin p{
+    font-size: clamp(0.5rem,3vw,4vw);
+margin: 0;
+margin-left: 20%;
+margin-top: -5%;
+  }
+  .errorContainer {
+    text-align: center;
+  }
+ 
+      
+  .buttonContainer{
+text-align: center;
+  }
+  .signinContainerText {
+    text-align: center;
+    text-decoration: none;
+  }
+  .forGotContainer {
+    text-align: left;
+    margin-top: 3%;
+    position: relative;
+    left:28%;
+     
+  }
+  .forGotContainer a{
+    text-align: center;
+    color: #000000;
+    font-size: 90%;
+    position: relative;
+    margin-left: 6%;
+  }
+  .mobilesigninContainer
+     {
+    width: 96vw;
+  text-align: left;
+    height: 100vh;
+    margin: 2%;
+  }
+  .mobilesigninContainer input{
+ width: 80vw;
+  }
+  .inputContainerSignup{
+ max-height: 5rem !important;
+    
+  }
+  .inputContainerSignup p{
+     font-size: clamp(0.5rem,3vw,4vw);
+margin: 0;
+margin-left: 5%;
+margin-top: -5%;
+  }
+  .Login-login p{
+    font-size: clamp(2rem,2.5rem,3rem);
+    
+  }
+  .signupContainerText{
+    text-align: center;
+  }
+  .mobileSignUpContainer{
+    
+      margin: 2%;
+min-height: 100vh;
+    height:100%;
+    margin-bottom: 20%;
+    width: 96vw;
+   
+  }
+  .signupMobileForm{
+    
+    width: 100%;
+  }
+  .inputContainerSignup input{
+    width: 90%;
+  }
+  .buttonContainerSignup{
+    margin-top: 10%;
+    text-align: center;
+    
+  }
+  .Forgot-Heading{
+    font-size: normal;
+  }
+  .forgotFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+  }
+  .forgotFields label{
+    position: relative;
+    margin-left: 5%;
+  }
+  .mobileSignupInputContainer{
+ 
+    margin-top: -5%;
+    margin-bottom: -5%;
+  }
+  .phoneContainerLogin p {
+  color: red;
+  font-size: 0.7vw;
+  text-align: left;
+  font-size: clamp(0.5rem,3vw,4vw);
+
+  margin-left: 18% !important;
+  margin-top: -6%;
+  width: 100%;
+}
+.paswwordContainerLogin p{
+  margin-left: 18% !important;
+}
+.forgot-top-mobile{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.forgot-top-mobile h1{
+  color: black;
+  margin-bottom: 5%;
+}
+.forgotFields{
+ 
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+.SubmitContainerPassword{
+ 
+}
+}
+ 

@@ -1,13 +1,218 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url("//db.onlinewebfonts.com/c/20c2d461d736b1073c57cffba76d35d1?family=Harrington");
+html {
+  height: 100vh;
+}
+.react-datepicker__day.react-datepicker__day--keyboard-selected {
+  background: none;
+  color: black;
+}
+.react-datepicker__day--outside-month {
+  visibility: hidden;
+}
+select {
+  outline: none;
+  height: 3rem;
+  width: 80%;
+
+  border: 2px solid black;
+  background-color: white;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "poppins", serif;
+  height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body,
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "lato", serif;
+  color: #024126;
+}
+h2 {
+  font-family: "poppins", serif;
+}
+label {
+  font-family: "poppins", serif;
+}
+p {
+  font-size: clamp(1rem, 1.4vw, 4rem);
+  font-family: "poppins", serif;
+  line-height: 4.5vh;
+  letter-spacing: 0.5px;
+  margin: 0;
+  
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  min-width: 30%;
+  align-content: center;
+  margin: 1rem;
+  border: 2px solid #000000;
+  height: 3rem;
+  outline: none;
+}
+
+button {
+  background: #b00f00 0% 0% no-repeat padding-box;
+  border: none;
+
+  height: 2.5rem;
+  width: 10rem;
+  opacity: 1;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+  outline: none;
+}
+hr {
+  color: #b00f00;
+}
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__time-list-item {
+ 
+  font-size: small !important;
+   font-family: "poppins", serif;
+   font-weight: 600;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+    background-color: #024126;
+    color: white;
+    font-weight: bold;
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    border-radius: 0.3rem;
+    background-color: #024126;
+    color: #fff;
+}
+ 
+
+.react-datepicker__time-list-item--disabled {
+  display: none !important;
+}
+.react-confirm-alert {
+  min-height: 15%;
+  height: fit-content;
+  max-width: 34%;
+  min-width: 20%;
+  width: fit-content;
+  border: 3px solid #0D4A30;
+  padding: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.promptbuttonNo {
+  color: #B00F00;
+  background-color: inherit;
+  border: 3px solid #B00F00;
+  width: 6vw;
+}
+.promptbuttonNo h3 {
+  text-align: center;
+}
+.promptbuttonYes {
+  color: #235A42;
+  background-color: inherit;
+  border: 3px solid #235A42;
+  width: 6vw;
+}
+
+.promptbuttoncontainer {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 6% 0 1% 0;
+}
+
+
+@media (max-width: 768px) {
+  .react-confirm-alert {
+    min-height: 15%;
+    height: fit-content;
+    min-height: 10%;
+    min-width: 70%;
+    width: fit-content;
+    border: 3px solid #0D4A30;
+    padding: 1.5%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .promptbuttonNo {
+    color: #B00F00;
+    background-color: inherit;
+    border: 3px solid #B00F00;
+    width: 20vw;
+  }
+  .promptbuttonNo h3 {
+    text-align: center;
+    
+  }
+  .promptbuttonYes {
+    color: #235A42;
+    background-color: inherit;
+    border: 3px solid #235A42;
+    width: 20vw;
+  }
+
+  .promptbuttoncontainer {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 2% 0 1% 0;
+  }
+    .react-confirm-alert .custom-ui{
+  
+     padding-top: 10%;
+     padding-bottom: 10%;
+    
+    }
+    .react-confirm-alert .custom-ui p{
+      margin-top: -8% !important;
+      margin-bottom: 5%;
+    }
+      .react-confirm-alert .custom-ui{
+        margin-bottom: -5%;
+        padding-left: 0%;
+        padding-right: 0%;
+      }
 }

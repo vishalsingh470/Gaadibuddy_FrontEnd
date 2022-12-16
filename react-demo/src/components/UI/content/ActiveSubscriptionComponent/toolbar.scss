@@ -1,0 +1,162 @@
+@import './variables';
+
+$active-background: darken($btn-bg, 10%);
+$active-border: darken($btn-border, 12%);
+
+.rbc-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  font-size: 16px;
+ 
+  height: 6rem;
+  width: 100%;
+  background-color:rgb(214, 206, 206);
+  
+  .rbc-toolbar-label {
+    background-color:rgb(214, 206, 206);
+    flex-grow:2;
+    padding-top:25px;
+    text-align: center;
+    border-radius: 0%;
+    font-size: xx-large;font-weight: bold;
+   
+ 
+  }
+
+  & button {
+    color: $btn-color;
+    display:flex;
+    margin: 0;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgb(214, 206, 206);
+    background-image: none;
+   
+    padding: .375rem 1rem;
+  
+    line-height: normal;
+    white-space: nowrap;
+    height: 2rem;
+    &:active,
+    &.rbc-active {
+      background-image: none;
+      box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+      background-color :rgb(214, 206, 206);
+      border: 0px solid gray;
+
+      &:hover,
+      &:focus {
+        color: $btn-color;
+        background-color: darken($btn-bg, 17%);
+        border-color: rgb(255, 248, 248);
+      }
+    }
+
+    &:focus {
+      color: $btn-color;
+      background-color:rgb(238, 232, 232);
+      border-color: none;
+    }
+
+    &:hover {
+      color: $btn-color;
+      background-color: $active-background;
+          border-color: $active-border;
+    }
+  }
+}
+
+.rbc-btn-group {
+  display: flex;
+  white-space: nowrap;
+margin-top: 1%;
+height: fit-content;
+border: none;
+   
+
+   
+ 
+
+ 
+}
+@media(max-width:769px){
+ 
+  .rbc-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+     
+   
+    margin-bottom: 0rem;
+    font-size: auto;
+margin: auto;
+text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color:rgb(214, 206, 206);
+    
+    .rbc-toolbar-label {
+      background-color:rgb(214, 206, 206);
+      flex-grow:1;
+      padding-top:5%;
+      text-align: left;
+      height: fit-content;
+      border-radius: 0%;
+      font-size: large;font-weight: bold;
+     
+   
+    }
+  
+    & button {
+      color: $btn-color;
+      display:flex;
+      margin: 0;
+      flex-direction: row;
+      text-align: center;
+      vertical-align: left;
+      background-color:rgb(214, 206, 206);
+      width: 100%;
+     
+      
+    
+    
+     
+   
+     
+    }
+  }
+  
+  .rbc-btn-group {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    padding-left: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+  
+     
+  
+    
+   
+  
+     
+   
+  
+    
+  
+     
+  
+    
+  }
+ .rbc-btn-group::selection{
+   border: none;
+ }
+}

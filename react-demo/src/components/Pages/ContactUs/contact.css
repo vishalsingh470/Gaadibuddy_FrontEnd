@@ -1,0 +1,241 @@
+.contactcontainer {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.upperContact {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.upperContact p {
+  color: #024126;
+  position: absolute;
+  top: 45%;
+  font-weight: bold;
+  left: 50%;
+  font-family: Harrington !important;
+  font-size: clamp(2vw, 5vw, 6vw);
+  letter-spacing: 8px;
+}
+.upperContact img {
+  height: auto;
+  width: 40%;
+}
+.lowerContact img {
+  height: auto;
+  width: 5%;
+}
+.middleContact {
+  margin-top: 5%;
+  height: auto;
+  width: 100vw;
+  display: flex;
+ justify-content: center;
+}
+.middleContact img{
+  height: 4vw;
+  width: 4vw;
+  margin-bottom: 2%;
+  
+}
+.contactEmail {
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+ 
+  margin-bottom: 2%;
+  
+}
+
+.contactPhone {
+  width: 30rem;
+  height: 20rem;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+.contactAddress{
+  width: 30rem;
+  height: 20rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+.contactAddress p{
+  line-height: 30px;
+}
+.contactField {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.messageHeader {
+  text-align: center;
+ 
+  margin-bottom: 2%;
+}
+.lowerContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.messageHeader{
+text-align: center;  
+ 
+font-weight: bold;
+color: #024126;
+margin-top: -2%;
+}
+.messageHeader p{
+  
+  font-size: x-large;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+.lowerContact-up{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2%;
+
+}
+.nameInputFiled{
+ 
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.nameInputFiled input{
+  margin: 0;
+  width: 95%;
+}
+.loweContact-down{
+display: flex;
+justify-content: center;
+}
+.messageInputFiled{
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  margin-bottom: 2%;
+}
+.messageInputFiled textarea{
+  border: 2px solid black;
+  width: 59rem;
+  height: 10rem;
+  margin-left: -0.5%;
+}
+.buttonContactContainer{
+  text-align: center;
+  
+  margin-bottom: 2%;
+}
+.buttonContactContainer button{
+width: fit-content;
+padding-left: 2%;
+padding-right: 2%;
+}
+ 
+#errorContact{
+color: red;
+font-size: smaller;
+position:relative;
+top:0rem;
+height:0%;
+background:red;
+}
+
+@media (max-width: 769px) {
+  .upperContact {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20%;
+  }
+  .upperContact img{
+    width: 100vw;
+  }
+  .middleContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+ 
+    height: 22rem;
+    width: 98vw;
+    margin: 1%;
+    margin-bottom: 10%;
+  }
+  .contactEmail{
+width: 98vw;
+   margin: 0;
+   padding: 0%;
+      
+  }
+  .contactPhone{
+      margin: auto;
+width: 98vw;
+  }
+  .contactAddress{
+    margin: auto;
+width: 20rem;
+  }
+  .upperContact p{
+position: relative;
+top: 0;
+left: 0;
+margin-top: 10%;
+text-align: center;
+  font-family: Harrington;
+  font-size: clamp(5vw, 10vw, 12vw);
+  }
+ 
+  .messageInputFiled{
+ 
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  margin-bottom: 10%;
+  
+}
+.messageInputFiled textarea{
+  border: 2px solid black;
+  width: 19rem;
+  height: 6rem;
+  margin-left: -1%;
+}
+.middleContact img{
+  height: 10vw;
+  width: 10vw;
+}
+.nameInputFiled{
+ 
+  margin-bottom: 4%;
+}
+.buttonContactContainer{
+  text-align: center;
+  
+  margin-bottom: 10%;
+}
+.buttonContactContainer button{
+width: fit-content;
+padding-left: 5%;
+padding-right: 5%;
+}
+ 
+}

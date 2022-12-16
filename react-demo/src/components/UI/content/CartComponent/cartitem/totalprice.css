@@ -1,0 +1,38 @@
+.totalPriceContainer{
+  
+    width: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.headerTable{
+    text-align: center;
+    
+    
+}
+.totalPriceContainer tbody{
+    
+    height: auto;
+      margin: 0;
+}
+ .totalPriceHr hr{
+     margin: auto;
+ width: 250%;
+border: 2px solid orangered;
+margin-left: -20%;
+ }
+ .totalPriceContainer tr{
+      
+     margin: 0;
+ 
+    
+     height: -1rem !important;
+ }
+ .totalPriceContainer h3{
+     margin-top: 3%;
+     margin-bottom: 3%;
+ }
+ 

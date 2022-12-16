@@ -1,0 +1,221 @@
+@import './variables';
+@import './reset';
+@media (min-width: 769px) {
+  .rbc-calendar {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    height: 90vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+ 
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 768px) {
+
+  .dateContainerMyOrders{
+    margin-left: -10%;
+    margin: auto;
+     
+  }
+   .dateContainerMyOrders button{
+     min-width:20vw;
+     margin-left: -5%;
+   }
+     .dateContainerMyOrders button:first-child{
+       
+       margin-left: -8%;
+     }
+   
+   .dateContainerMyOrders p{
+min-width:10vw;
+   }
+   .rbc-month-header{
+    height: 6%;
+  
+  }
+  .rbc-row{
+    margin: auto;
+    width: inherit;
+  }
+  .rbc-calendar{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+  .rbc-header {
+    overflow: hidden;
+    flex: 1 0 0%;
+    
+    text-overflow: ellipsis;
+    white-space: wrap;
+    padding: 0 1px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 5%;
+    min-height: 0;
+    border-bottom: 1px solid $cell-border;}
+     .rbc-calendar {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+ 
+    margin-bottom: 1%;
+  }
+   
+}
+
+
+.rbc-calendar *,
+.rbc-calendar *:before,
+.rbc-calendar *:after {
+  box-sizing: inherit;
+}
+
+.rbc-abs-full {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.rbc-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rbc-rtl {
+  direction: rtl;
+}
+
+.rbc-off-range {
+  color: rgb(245, 238, 238);
+  visibility: hidden;
+  
+}
+
+.rbc-off-range-bg {
+  background: $out-of-range-bg-color;
+ 
+  
+}
+ 
+@media(max-width:769px){
+  .rbc-header {
+  overflow: hidden;
+ 
+     padding: 1px 1px !important;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 90%;
+   
+  border-bottom: 1px solid $cell-border;
+
+  & + & {
+    border-left: 1px solid $cell-border;
+  }
+  .rbc-month-header{
+    background-color: black;
+  }
+  .rbc-rtl & + & {
+    border-left-width: 0;
+    border-right: 1px solid $cell-border;
+  }
+
+  & > a {
+    &, &:active, &:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+}
+.rbc-header {
+  overflow: hidden;
+  flex: 1 0 0%;
+  
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px 1px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 90%;
+ 
+  border-bottom: 1px solid $cell-border;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center !important;
+  & + & {
+    border-left: 1px solid $cell-border;
+  }
+  .rbc-month-header{
+    background-color: black;
+  }
+  .rbc-rtl & + & {
+    border-left-width: 0;
+    border-right: 1px solid $cell-border;
+  }
+
+  & > a {
+    &, &:active, &:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+.rbc-row-content {
+  
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 4;
+  
+}
+
+.rbc-today {
+  background-color: $today-highlight-bg;
+  background-color:rgb(188, 211, 238);
+}
+span{
+  background-color: #D6CECE;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+ 
+@import './toolbar';
+@import './event';
+@import './month';
+@import './agenda';
+@import './time-grid';

@@ -1,0 +1,115 @@
+.ioclMainPageContainer {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iocl-pastCustomers {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iocl-pastCustomers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.iocl-onePastOrder {
+  border: 2px solid rgb(36, 206, 36);
+  width: 90%;
+  min-height: 18rem;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 2%;
+  border-bottom-color: rgb(36, 206, 36);
+  border-bottom: 10px solid rgb(10, 148, 10);
+  border-radius: 10px;
+}
+
+.iocl-onePastOrder p {
+  font-weight: 600;
+}
+
+.iocl-customer-card {
+  width: 80%;
+  height: 20%;
+  border: 2px solid rgb(36, 206, 36);
+  margin-top: 5%;
+  border-bottom-color: rgb(36, 206, 36);
+  border-bottom: 10px solid rgb(10, 148, 10);
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+.iocl-car-card {
+  width: 80%;
+  height: 20%;
+  border: 2px solid rgb(36, 206, 36);
+  border-bottom-color: rgb(36, 206, 36);
+  border-bottom: 10px solid rgb(10, 148, 10);
+  border-radius: 10px;
+  margin-top: 5%;
+   text-align: center;
+}
+.iocl-order-card {
+  width: 80%;
+  height: 20%;
+  border: 2px solid rgb(36, 206, 36);
+  border-bottom-color: rgb(36, 206, 36);
+  border-bottom: 10px solid rgb(10, 148, 10);
+  border-radius: 10px;
+ text-align: center;
+  margin-top: 5%;
+}
+.iocl-button {
+  margin-top: 5%;
+}
+.past-order {
+  margin-top: 5%;
+}
+.iocl-addCustomerContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.iocl-addCustomerContainer input {
+  width: 80%;
+  padding-left: 2%;
+}
+.iocl-addCustomerContainer select {
+  width: 83%;
+  padding-left: 2%;
+  margin-bottom: 2%;
+}
+.iocl-addCustomerContainer-body {
+  margin-top: 10%;
+  padding: 2%;
+
+  width: 80%;
+
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iocl-addCustomerContainer-body button{
+    cursor: pointer;
+}

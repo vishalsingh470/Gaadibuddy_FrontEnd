@@ -1,0 +1,416 @@
+:root{
+  --bottom-right-content-width:fit-content;
+  --bottom-right-content-height:fit-content;
+  --bottom-left-content-maxheight:18rem;
+  
+}
+ 
+
+
+.serviceComponentContaoner {
+  min-height: 90vh;
+  height: fit-content;
+  margin: 2%;
+  border: 3px solid #024126;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.serviceComponentContaoner h1{
+  color:#024126;
+}
+ 
+.servicePageBookingButtonContainerPlatinum button{
+  width: fit-content;
+  padding-left: 6% !important;
+  padding-right: 6% !important;
+  
+}
+.servicePageBookingButtonContainer button{
+  width: fit-content;
+  padding-left: 60% !important;
+  padding-right: 60% !important;
+
+}
+.serviceComponentContaoner  li{
+ 
+  font-size: clamp(1rem, 1.4vw, 4rem);
+font-family: 'Poppins', sans-serif;
+  line-height: 4.5vh;
+  letter-spacing: 0.5px;
+  margin: 0;
+
+}
+.service-top {
+  margin-bottom: 5%;
+}
+.service-top h1 {
+  text-align: center;
+}
+.service-middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+  
+}
+
+.service-middle button{
+    background-color: #024126;
+      border-radius:20px !important;
+    border: 2px solid #024126 ;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+.service-bottom{
+   flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 2%;
+    
+}
+
+.bottom-left{
+    
+  width: 40%;
+     max-height: var(--bottom-left-content-maxheight);
+}
+.bottom-left img{
+    min-height: 16rem;
+    
+    width: clamp(60%,90%,100%);
+    height: clamp(60%,100%,110%);
+    
+}
+.bottom-right{
+ width:var(--bottom-right-content-width);
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: left;
+ text-align: left;
+ align-content: center;
+ margin-top: 1%;
+ 
+ max-width: 50%;
+ margin-left: 5%;
+  
+}
+
+
+.platinumPoint p{
+height: 3rem;
+}
+.platinumPoint:last-child{
+ 
+  margin-top: 4%;
+}
+
+.bottom-right-points {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.bottom-right button{
+    margin-top: 12%;
+ position: relative;
+margin-top: 30%;
+   
+  
+   
+}
+.servicePageBookingButtonContainer{
+  position: relative;
+  width: var(--bottom-right-content-width);
+  margin: auto;
+  all: unset;
+  background-color: red !important;
+}
+ 
+.servicePageBookingButtonContainerPlatinum button{
+margin: unset;
+position: relative;
+margin-left: 20% !important;
+margin-top: 1%;
+}
+ 
+.pointsContainerWashing li{
+   position: relative;
+
+   margin-top:5%;
+   
+}
+.pointsContainerWashing p{
+    text-decoration: dotted !important;
+   height: 3rem;
+}
+.pointsContainerDetailing{
+ 
+  min-height:15rem;
+  margin-top: -8%;
+}
+.pointsContainerDetailing li{
+ 
+  margin-top: 3% !important;
+}
+.pointsContainerSanitization{
+  min-height:13rem;
+}
+.pointsContainerSanitization li{
+  margin-top: 3% !important;
+}
+.pointsContainerJumpStart{
+  min-height:13rem;
+margin-top: -4%;
+}
+.pointsContainerJumpStart li{
+  margin-top: 2% !important;
+  height: 3rem;
+}
+.pointsContainerWaxing{
+  min-height:13rem;
+  margin-top: -5%;
+}
+.pointsContainerWaxing li{
+  margin-top: 2% !important;
+  height: 3rem;
+}
+.servicePageBookingButtonContainerSanitization  {
+   position: relative;
+ width: var(--bottom-right-content-width);
+ margin: auto;
+}
+.servicePageBookingButtonContainerSanitization button{
+margin: unset;
+position: relative;
+margin-left: -120%;
+margin-top: 1%;
+width: fit-content;
+padding-left: 60%;
+padding-right: 60%;
+}
+.servicePageBookingButtonContainerJumpstart{
+    position: relative;
+ width: var(--bottom-right-content-width);
+ margin: auto;
+}
+.servicePageBookingButtonContainerJumpstart button{
+  margin: unset;
+position: relative;
+margin-left: 100%;
+margin-top: 1%;
+width: fit-content;
+padding-left: 20%;
+padding-right: 20%;
+}
+@media(max-width:768px){
+  .service-top{
+    
+    min-height: 30vh;
+  }
+  .service-middle{
+margin: 0%;
+width: 100%;
+ 
+ 
+display: flex;
+flex-direction: row !important;
+flex-wrap: wrap;
+ 
+justify-content: center;
+  }
+.service-middle {
+ 
+}
+.service-middle button{
+border: 2px solid #024126 ;
+font-size: 85%;
+max-width: 45%;
+
+margin: 1%;
+margin-left: 2%;
+margin-right: 2%;
+min-height: 5.2vh;
+height: 5.3vh;
+max-height: 5.4vh;
+border: none;
+border-radius:50px !important;
+
+ 
+ 
+    }
+ 
+ 
+.service-bottom{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-left{
+ margin-top: 2%;
+ margin-bottom: 6%;
+  width: 100%;
+ 
+}
+ 
+.bottom-right{
+min-width:  100% !important;
+margin-bottom: 6%;
+ 
+margin-left: unset;
+}
+.bottom-right-points {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline;
+  align-self: baseline;
+  justify-items: center;
+text-align: left;
+margin:auto;
+margin-left: 4%;
+}
+.bottom-right-points li{
+
+  max-height:3rem;
+  background-color: rgb(0, 0, 0);
+  min-height: 8px !important;
+  min-width: 8px !important;
+  height: 8px !important;
+  width: 8px !important;
+  text-align: center;
+  border-radius: 100%;
+  margin-right: 3%;
+
+}
+ .bottom-right-points p{
+ 
+   text-decoration: dotted !important;
+
+ }
+ 
+ .bottom-right button{
+   margin-top: 4%;
+ }
+ 
+.bottom-left img{
+    min-height: 30vh;
+    height: 32vh;
+    max-height: 50vh;
+    width: clamp(60%,100%,100%);
+    
+    box-shadow: 12px 12px 12px #00000029;
+    
+}
+.platinumPoint p{
+height: fit-content;
+}
+.platinumPoint:last-child{
+ 
+  margin-top: 14%;
+}
+.servicePageBookingButtonContainerPlatinum  {
+ all: unset !important;
+display: flex !important;
+flex-direction: row !important;
+justify-content: center !important;
+align-items: center !important;
+ 
+margin: auto !important;
+ 
+}
+
+.servicePageBookingButtonContainerPlatinum button{
+  margin: unset;
+ padding-left: 50% !important;
+ padding-right: 50% !important;
+ 
+}
+ 
+ 
+ 
+.pointsContainerDetailing{
+ 
+   min-height:fit-content;
+  margin-bottom: 2%;
+ 
+}
+ 
+.pointsContainerDetailing li{
+ 
+  margin-top: 3% !important;
+  height: 1rem;
+  color: red !important;
+ 
+}
+.pointsContainerDetailing li{
+ 
+ 
+  margin-top: 3% !important;
+  height: 1rem;
+   
+}
+.pointsContainerSanitization{
+  min-height:fit-content;
+  margin-bottom: 2%;
+}
+.pointsContainerSanitization li{
+ margin-top: 3% !important;
+  height: 1rem;
+}
+.pointsContainerJumpStart{
+  min-height:fit-content;
+  margin-bottom: 2%;
+
+}
+.pointsContainerJumpStart li{
+  margin-top: 3% !important;
+  height: 1rem;
+}
+.pointsContainerWaxing{
+  min-height:fit-content;
+  margin-bottom: 2%;
+}
+.pointsContainerWaxing li{
+ margin-top: 3% !important;
+  height: 1rem;
+}
+.platinumPoint:last-child{
+ 
+  margin-top: 0%;
+}
+ .servicePageBookingButtonContainerSanitization  {
+   position: relative;
+ width: var(--bottom-right-content-width);
+ margin: auto;
+ margin: unset;
+ display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.servicePageBookingButtonContainerSanitization button{
+margin: unset;
+position: relative;
+
+margin-top: 1%;
+width: fit-content;
+padding-left: 50%;
+padding-right: 50%;
+}
+.pointsContainerWashing p{
+    height: fit-content;
+}
+.pointsContainerWashing{
+  margin-bottom: 5%;
+}
+.pointsContainerWashing li{
+    text-decoration: dotted ;
+   
+     height: 1rem;
+   margin-top: 3% !important;
+}
+ .three button:last-child{
+ 
+  min-width: 93% !important;
+}
+ 
+}

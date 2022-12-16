@@ -1,0 +1,657 @@
+.myOrderMainContainer {
+  min-height: 100vh;
+  height: 100%;
+ 
+}
+ 
+
+.oneOrderBox {
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.orderCard {
+  padding: 0.5%;
+  display: flex;
+  border: 2px solid grey;
+  height: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.ActiveOrdersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.leftOrder {
+  width: 65vw;
+}
+.rightOrder {
+  width: 30vw;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+}
+.rightOrder p{
+  margin: 1%;
+  font-size: large;
+}
+.orderImageContainer img {
+  height: 70px;
+  width: 70px;
+}
+#myOrdersTopic {
+  width: 10vw;
+}
+#myOrdersData{
+  width: 15vw;
+}
+#event-indication-container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: 10%;
+  justify-content:flex-start;}
+.myOrders-picker-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.myOrdersLineContainer hr{
+ 
+  border: 2px solid  #B00F00 ;
+}
+.myOrders-cars-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  
+}
+
+.myOrders-service-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+#carPicker {
+  border: 2px solid #024126;
+  margin : 0vw;
+  padding: 0.5vw;
+  cursor: pointer;
+}
+#carPicker{
+  background-color: #024126;
+  width: 10vw;
+  height: 4vh;
+  max-height: 4vh;
+  border-right: none;
+  overflow: wrap;
+  
+}
+.oneCarBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+} 
+.oneCarBox p{
+ white-space: wrap;
+     overflow: hidden;
+     text-overflow: none;
+     max-width: 5rem;
+}
+#carPicker:first-child {
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  width: 10vw;
+   height: 4vh;
+  margin-right: -1%;
+}
+#carPicker:last-child {
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+  width: 10vw;
+  height: 4vh;
+ 
+}
+ 
+#packagePicker:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: none;
+}
+ 
+#packagePicker {
+  border: 2px solid #024126;
+  margin-left: 0vw;
+  padding: 0.4vw;
+  cursor: pointer;
+}
+
+ 
+.noMyOrders{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+ margin-top:10rem;
+}
+.noMyOrders img{
+  height:200px;
+  width:200px;
+}
+.myOrdersImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myOrdersImage img{
+height: 200px;
+width: 150px;
+}
+ 
+.pastSubscriptons{
+ 
+height: fit-content;
+display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+}
+ 
+.pastoneTime{
+ 
+height: fit-content;
+display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+}
+.onePastOrderBox{
+  min-height: 8rem;
+ /* border: 2px solid grey; */
+  width: 90%;
+  margin: 0.5%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+ 
+.PastOrderField{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+ 
+
+}
+.PastOrderField small{
+  font-size: x-large;
+font-family:'poppins';
+font-weight: 400;
+  margin-bottom: 2%;
+   
+}
+
+ 
+ 
+#pastOrderValue{
+ min-width: 10rem;
+ width: 15rem; 
+ height: 3rem;
+ font-family:'poppins';
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: x-large;
+}
+.renewNotificationsContainer{
+ 
+   min-height: 1rem;
+   min-width: 90%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto; 
+ max-height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 1%;
+}
+.pastOrderBoxButton{
+  
+  margin-left: 10%;
+}
+.pastOrdersEmptyCOntainer h1{
+text-align: center;
+}
+ 
+.present-past-toggle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  margin-top: 4%;
+  margin-left: 1%;
+}
+.present-past-toggle button{
+  background-color: white;
+  color: black;
+  font-size: 130%;
+  width:fit-content;
+  min-width: 8vw;
+  max-width: 8vw;
+    height: fit-content;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  
+    border-bottom-style: solid;
+}
+.present-past-toggle button:first-child{
+  
+  margin-left: -1.5%;
+  height: fit-content;
+  
+}
+.indicationContainer{
+
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+ 
+}
+.oneIndication{
+  min-width: 9rem;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+    
+}
+.oneIndication .completed{
+  height: 15px;
+  width: 15px;
+  background-color : #3EB048 ;
+  font-size: 0%;
+  border-radius: 100%;
+}
+.oneIndication .missed{
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  font-size: 0%;
+  border-radius: 100%;
+}
+.oneIndication .pending{
+  height: 15px;
+  width: 15px;
+  background-color: #808080;
+  font-size: 0%;
+  border-radius: 100%;
+}
+.oneIndication .carnotpresent{
+  height: 11px;
+  width: 11px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0%;
+  border-radius: 100%;
+  border: 2px solid #3EB048;
+}
+.oneIndication small{
+  font-size: small;
+  margin-left: 4%;
+}
+@media (max-width: 769px) {
+  .myOrdersLineContainer hr{
+ 
+  border: 2px solid  #B00F00 ;
+ 
+}
+  .noMyOrders{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+ margin-top:12rem;
+ height: 80vh;
+}
+.noMyOrders img{
+  height:150px;
+  width:150px;
+  margin-left:3rem;
+}
+  .orderCard {
+    padding: 0.5%;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .oneOrderBox {
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftOrder {
+    margin: auto;
+    width: 100%;
+  }
+  .rightOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 96%;
+  }
+  .rightOrder p {
+    color: #000000;
+  }
+  .myOrders-cars-picker {
+   
+    justify-content: center;
+    align-items: center;
+    min-width: 95vw;
+    max-width: 95vw;
+  }
+.myOrders-picker-container{
+  width: 98%;
+   
+    margin: auto;
+}
+  #event-indication-container {
+    margin: 0;
+   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+   
+    justify-content:flex-start;
+    align-items: baseline;
+  }
+
+  #carPicker {
+    background-color:#024126;
+    max-height:1.8rem;
+    width: 20%;
+   text-align: left;
+    overflow:hidden;
+     text-overflow:  ellipsis;
+    padding-left:none;
+  }
+  #carPicker p{
+      text-align: center;
+    font-size:60%;
+    max-width: 90%;
+     overflow:hidden;
+     text-overflow:  ellipsis;
+    padding-left:none;
+    max-height: 100%;
+  }
+  #carPicker:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 20vw;
+    height: 4vh;
+    margin-right: -1%;
+  }
+  #carPicker:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 20vw;
+    height: 4vh;
+     margin-left: -1%;
+  }
+  #myOrdersTopic{
+      width:30vw;
+  }
+  #myOrdersData{
+  width: 55vw;
+}
+ #event-indication-container p{
+    
+    font-size: medium;
+    width: 6rem;
+    
+    height: 1.8rem;
+  }
+
+
+  .pastOrderContainer{
+ 
+height: fit-content;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+ 
+}
+.onePastOrderBox{
+  min-height: fit-content;
+ /* border: 2px solid grey; */
+  min-width: 90%;
+  padding-top: 5%;
+  margin: 5%;
+ 
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pastOrders-heading h1{
+  height: fit-content;
+  margin-bottom: -2%;
+}
+ 
+.PastOrderField{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 1%;
+  text-align: left;
+  width: 100%;
+
+}
+ 
+.pastoneTime, .PastOrderField  small{
+  text-align: left;
+  
+  min-width:8rem;
+  
+  font-size: large;
+}
+#pastOrderValue{
+  justify-content: flex-start;
+  text-align: left;
+  font-size: large;
+  
+min-width: 1rem;
+max-width:10rem;
+ height: 100%;
+ 
+margin-top: -3%;
+margin-right: -10%;
+ 
+}
+ 
+.pastOrderBoxButton{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pastOrderBoxButton button{
+  font-size: small;
+  height: 2rem;
+  width: 120%;
+margin: auto;
+ 
+ 
+}
+ 
+.renewNotificationsContainer{
+ 
+   min-height: 1rem;
+   min-width: 90%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto; 
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+.present-past-toggle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  margin-left: 1%;
+}
+.present-past-toggle button{
+  background-color: white;
+  color: black;
+  font-size: 100%;
+  width:fit-content;
+  min-width: 22vw;
+    height: fit-content;
+    padding-left: 1%;
+    padding-right: 1%;
+  
+    border-bottom-style: solid;
+}
+.present-past-toggle button:first-child{
+  
+  margin-left: -1.5%;
+  height: fit-content;
+  
+}
+.indicationContainer{
+
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1%;
+ 
+}
+.oneIndication{
+  min-width: 33%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+    
+}
+.oneIndication:last-child{
+   min-width: 10rem;
+}
+.oneIndication .completed{
+  height: 15px;
+  width: 15px;
+  background-color:#3EB048 ;
+  font-size: 0%;
+  border-radius: 100%;
+}
+.oneIndication .missed{
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  font-size: 0%;
+  border-radius: 100%;
+}
+.oneIndication .pending{
+  height: 15px;
+  width: 15px;
+  background-color: #808080;
+  font-size: 0%;
+  border-radius: 100%;
+}
+
+.oneIndication .carnotpresent{
+  height: 11px;
+  width: 11px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0%;
+  border-radius: 100%;
+  border: 2px solid #3EB048;
+}
+.oneIndication small{
+  font-size: small;
+  margin-left: 4%;
+}
+.oneIndication .pending {
+  color: red !important;
+  
+}
+ 
+.oneCarBox p{
+  
+ white-space: wrap;
+     overflow: hidden;
+     text-overflow: none;
+     max-width: 0.7rem ;
+}
+.packageOldOrder{
+ 
+   min-width:10rem ;
+ }
+ .packageOldOrder p{
+ 
+   font-size: normal;
+ }
+}
+ .packageOldOrder{
+ 
+   min-width: 15vw !important;
+   width: 10rem;
+   text-align: center;
+ }
+ .packageOldOrder p{
+ 
+   font-size: normal;
+   
+ }
+/* @media(max-width:568px){
+  .oneIndication{
+  min-width: 5rem;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+    
+}
+.oneIndication:last-child{
+   min-width: 10rem;
+}
+} */

@@ -1,0 +1,40 @@
+.mainContainerTerms{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 2%;
+     font-family: 'Times New Roman', Times, serif;
+    
+}
+ .mainContainerTerms p{
+          font-size:clamp(0.3rem,1vw,2rem);
+          font-family: 'Times New Roman', Times, serif;
+          word-spacing: normal;
+          line-height: normal;
+           
+}
+.mainHeaderTerms{
+    text-align: center;
+}
+.mainContainerTerms h3{
+ font-family: 'Times New Roman', Times, serif;
+}
+.mainContainerTerms h1{
+     font-family: 'Times New Roman', Times, serif;
+}
+         
+    
+.mainContainerTerms ul{
+    list-style: circle;
+    text-decoration: dotted;
+}
+@media(max-width:768px){
+    .mainContainerTerms{
+        margin: 5%;
+        text-align: left;
+    }
+    .mainContainerTerms p{
+          font-size: 0.8rem !important;
+    }
+}

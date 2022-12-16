@@ -1,0 +1,119 @@
+.signInMobileContainer{
+ 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+.signInMobileContainer a{
+    text-decoration: none;
+  color:  #07452A;
+}
+.top-SigninMobile{
+    height: 15%;
+  
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.top-SigninMobile p{
+    font-size: clamp(2.5rem,12vw,16vw);
+    font-weight: bold;
+
+}
+.middle-SigninMobile{
+height: 45%;
+ 
+margin: 1%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.middle-loginmobile-1{
+   height: 30%;
+ 
+   margin: 1%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.middle-loginmobile-2{
+height: 30%;
+ 
+margin: 1%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-bottom: 4%;
+}
+.middle-loginmobile-3{
+height: 20%;
+ 
+ 
+}
+.signin-input{
+height: 70%;
+ 
+}
+.signin-input input{
+width: 90%;
+}
+.signin-error{
+ margin: auto;
+  height: 20%;  
+ 
+  text-align: left;
+  width: 90%;
+ 
+    
+}
+.signin-error p{
+ width: 90%;
+ color: red;
+}
+
+.middle-loginmobile-3{
+ 
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    margin-top: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.middle-loginmobile-3 p{
+    color: red;
+}
+.bottom-SigninMobile{
+height: 20%;
+ 
+margin: 1%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-top: -16%;
+ 
+}
+.bottom-signinMobile-1{
+    margin: 2%;
+}
+.bottom-signinMobile-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+width: 90%;
+}
+.bottom-signinMobile-2 small,.bottom-signinMobile-2 strong{
+margin: 1%;
+}
+ .eyeContainer{
+    position: relative;
+    left: 85vw;
+    top: -11vh;
+     }

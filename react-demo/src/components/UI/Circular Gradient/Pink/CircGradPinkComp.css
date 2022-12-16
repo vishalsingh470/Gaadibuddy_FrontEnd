@@ -1,0 +1,13 @@
+.circgradpinkcomp {
+  background: transparent linear-gradient(180deg, #FFDEFE  0%, #ffffff 100%) 0%
+    0% no-repeat padding-box;
+  margin: 5rem;
+  font-size: 2rem;
+  border: 1px solid #707070;
+  opacity: 1;
+  border-radius: 100%;
+
+  max-height: auto;
+  max-width: 20rem;
+  background-color: #f6f7f5;
+}
